@@ -5,7 +5,9 @@ echo -e " for      \ \/ / / "
 echo -e "ehtools    \/_/_/  By Ivan Nikolsky "
 sleep 3
 echo -e "Welcome to Modules (BETA)"
+sleep 3
 echo -e "It's fully safely!"
+sleep 3
 echo -e "Press \e[1;33many key\e[0m to install modules (BETA)"
 read -n 1
 clear
@@ -52,7 +54,7 @@ sleep 1
 echo -e "Getting 100%"
 sleep 3
 echo -e "\e[4;32mPreparing to unpack...\e[0m"
-echo -e "\e[4;32m(com.entynetproject.modules:ehtools.tar.gz)...\e[0m"
+sleep 5
 echo -e "\e[4;32mSuccess!\e[0m"
 sleep 5
 chmod +x /root/modules/eht/eht1
